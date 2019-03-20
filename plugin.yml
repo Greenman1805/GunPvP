@@ -1,0 +1,20 @@
+name: GunPvP
+main: de.greenman1805.gunpvp.Main
+version: 1.0
+author: Greenman1805
+depend: [HolographicDisplays]
+api-version: 1.13
+
+commands:
+  weapons:
+    description: Open Weapon Inventory
+  gunshop:
+    description: Open Gun Shop
+  explosiveshop:
+    description: Open Explosive Shop
+          
+permissions:
+  gunpvp.admin:
+    default: op
+  gunpvp.all:
+    default: op
